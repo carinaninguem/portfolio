@@ -20,7 +20,7 @@ export default {
         content: 'Carina Leitão Portfólio',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/porfolio/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
