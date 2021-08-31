@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/outros/granja", {data:[{}],fetch:{},mutations:void 0});
