@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projetos/gift", {data:[{}],fetch:{},mutations:void 0});
