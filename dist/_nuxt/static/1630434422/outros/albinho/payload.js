@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/outros/albinho", {data:[{}],fetch:{},mutations:void 0});
