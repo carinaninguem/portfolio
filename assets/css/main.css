@@ -1,53 +1,53 @@
 @font-face {
-  font-family: "montserrat-extra-light";
-  src: url(~/assets/fonts/Montserrat-ExtraLight_1.ttf) format("truetype");
+  font-family: 'montserrat-extra-light';
+  src: url(../fonts/Montserrat-ExtraLight_1.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "montserrat-medium";
-  src: url(~assets/fonts/Montserrat-Medium_1.ttf) format("truetype");
+  font-family: 'montserrat-medium';
+  src: url(../fonts/Montserrat-Medium_1.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "montserrat-medium-italic";
-  src: url(~assets/fonts/Montserrat-MediumItalic_1.ttf) format("truetype");
+  font-family: 'montserrat-medium-italic';
+  src: url(../fonts/Montserrat-MediumItalic_1.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "montserrat-semi-bold";
-  src: url(~assets/fonts/Montserrat-SemiBold_1.ttf) format("truetype");
+  font-family: 'montserrat-semi-bold';
+  src: url(../fonts/Montserrat-SemiBold_1.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "new-york";
-  src: url(~assets/fonts/NewYork.otf) format("truetype");
+  font-family: 'new-york';
+  src: url(../fonts/NewYork.otf) format('truetype');
 }
 
 @font-face {
-  font-family: "myriad-regular";
-  src: url(~assets/fonts/MyriadPro-Regular.otf) format("truetype");
+  font-family: 'myriad-regular';
+  src: url(../fonts/MyriadPro-Regular.otf) format('truetype');
 }
 
 .extra_light {
-  font-family: "montserrat-extra-light";
+  font-family: 'montserrat-extra-light';
 }
 
 .medium {
-  font-family: "montserrat-medium";
+  font-family: 'montserrat-medium';
 }
 
 .medium_italic {
-  font-family: "montserrat-medium-italic";
+  font-family: 'montserrat-medium-italic';
 }
 
 .semi_bold {
-  font-family: "montserrat-semi-bold";
+  font-family: 'montserrat-semi-bold';
 }
 
 .york {
-  font-family: "new-york";
+  font-family: 'new-york';
 }
 
 .myriad {
-  font-family: "myriad-regular";
+  font-family: 'myriad-regular';
 }
