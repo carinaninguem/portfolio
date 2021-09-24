@@ -1,12 +1,37 @@
 <template>
   <div class="flex flex-col md:flex-row">
     <div
-      class="left w-full md:w-2/6 lg:w-1/2 h-full justify-start flex md:justify-center items-center md:items-start flex-col pt-16 md:pt-0"
+      class="
+        left
+        w-full
+        md:w-2/6
+        lg:w-1/2
+        h-full
+        justify-start
+        flex
+        md:justify-center
+        items-center
+        md:items-start
+        flex-col
+        pt-16
+        md:pt-0
+      "
     >
       <Logo />
     </div>
     <div
-      class="md:w-4/6 lg:w-1/2 h-full justify-start flex md:justify-center items-center text-xs flex-col md:flex-row"
+      class="
+        md:w-4/6
+        lg:w-1/2
+        h-full
+        justify-start
+        flex
+        md:justify-center
+        items-center
+        text-xs
+        flex-col
+        md:flex-row
+      "
     >
       <div class="flex flex-col md:flex-row">
         <div class="w-full md:w-1/2 md:pr-10 pt-16 md:pt-0">
@@ -48,7 +73,7 @@
             </li>
           </ul>
         </div>
-        <div class="w-full md:w-1/2 md:pl-10 pt-9">
+        <div class="w-full md:w-1/2 md:pl-10 pt-9 pb-9 lg:pb-0">
           <p class="semi_bold">2015 - 2018</p>
           <p class="extra_light">
             Licenciatura em Design e Multimédia, na Faculdade de Ciências e

@@ -1,7 +1,7 @@
 <template>
   <div
-    :class="{ background: hasBackground }"
-    class="h-screen p-4 md:p-8 lg:p-16 flex flex-col justify-between"
+    :class="{ background: hasBackground, maxContent: isProjects }"
+    class="h-max md:h-screen p-4 md:p-8 lg:p-16 flex flex-col justify-between"
   >
     <div class="justify-between flex">
       <h1 v-if="isHome === false" class="text-custom__tx text-4xl">
@@ -24,7 +24,21 @@
         </h1>
         <div
           v-if="isActive"
-          class="flex bg-custom__bg border border-custom__border_c rounded-3xl px-16 py-24 mt-16 absolute z-10 right-14"
+          class="
+            flex
+            bg-custom__bg
+            border
+            border-custom__border_c
+            rounded-3xl
+            px-6
+            py-4
+            md:px-16
+            md:py-24
+            mt-16
+            absolute
+            z-10
+            right-14
+          "
         >
           <Navbar />
         </div>
@@ -71,6 +85,7 @@ export default {
       isActive: false,
       isHome: true,
       hasBackground: true,
+      isProjects: false,
     };
   },
   methods: {
@@ -82,8 +97,10 @@ export default {
           this.$route.name != "outros-id"
         ) {
           r = this.$route.name.replace("-", " ");
+          this.isProjects = false;
         } else {
           r = this.$route.params.id.replace("-", " ");
+          this.isProjects = true;
         }
 
         this.title = r.replace(/(^\w{1})|(\s+\w{1})/g, (letter) =>
@@ -152,6 +169,10 @@ p {
 .secMenu {
   height: 40px;
   cursor: pointer;
+}
+
+.maxContent {
+  height: max-content;
 }
 
 .background {

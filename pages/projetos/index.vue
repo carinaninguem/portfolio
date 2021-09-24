@@ -1,7 +1,8 @@
 <template>
   <div>
-    <div v-for="item in data" :key="item.id" class="flex w-full m-3">
+    <div v-for="item in data" :key="item.id" class="flex w-full mt-0 md:mt-6">
       <ProjectCategory
+        :title="item.projeto.title"
         :description="item.projeto.short_description"
         :category="item.projeto.category"
         :thumb="item.projeto.thumb"

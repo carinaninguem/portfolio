@@ -2,7 +2,9 @@
   <nuxt-link
     :to="`/projetos/${slug}`"
     class="
-      p-3
+      pt-10
+      md:pt-3
+      pb-3
       flex
       w-full
       border
@@ -15,6 +17,7 @@
     <div class="flex flex-col justify-center w-8/12">
       <p>{{ category }}</p>
       <Hsvg cl="w-11/12" />
+      <p class="semi_bold">{{ title }}</p>
       <p>{{ description }}</p>
     </div>
     <div class="flex justify-end w-4/12">
@@ -24,6 +27,7 @@
         class="w-16 lg:w-24 xl:w-32 h-16 lg:h-24 xl:h-32 ml-6"
         :src="icon"
         :alt="slug"
+        :class="{ mobileHide: i != 0 }"
       />
     </div>
   </nuxt-link>
@@ -37,6 +41,7 @@ export default {
     Hsvg,
   },
   props: {
+    title: String,
     category: String,
     description: String,
     thumb: Array,
@@ -44,3 +49,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.mobileHide {
+  @apply hidden md:block;
+}
+</style>

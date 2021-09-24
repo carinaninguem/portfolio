@@ -7,7 +7,7 @@
         :alt="item.projeto.slug"
       />
 
-      <div class="flex pt-52 flex-col xl:flex-row">
+      <div class="flex pt-16 lg:pt-52 flex-col xl:flex-row">
         <div class="w-full xl:w-1/2 xl:pr-16">
           <h3 class="text-md xl:text-xl text-custom__tx">
             {{ item.projeto.type }}
@@ -30,7 +30,7 @@
         </div>
       </div>
 
-      <div class="flex pt-52 flex-col xl:flex-row">
+      <div class="flex pt-16 lg:pt-52 flex-col xl:flex-row">
         <div class="w-full xl:w-2/6 pr-0 xl:pr-16">
           <h3 class="text-4xl york text-custom__tx">.palavras-chave</h3>
 
@@ -79,7 +79,14 @@
           />
         </div>
       </div>
-      <div class="filters mt-52">
+      <div
+        v-if="
+          item.projeto.fotografia_active === true ||
+          item.projeto.design_active === true ||
+          item.projeto.videos_active === true
+        "
+        class="filters mt-52"
+      >
         <ul class="flex">
           <li
             v-if="
@@ -139,10 +146,10 @@
         </ul>
       </div>
 
-      <div class="pt-52" v-if="active_el == 0 || active_el == 1">
+      <div v-if="active_el == 0 || active_el == 1">
         <h1
           v-if="item.projeto.design_active === true"
-          class="york text-2xl xl:text-4xl"
+          class="york text-2xl xl:text-4xl pt-52"
         >
           .Design
         </h1>
@@ -155,14 +162,14 @@
         />
       </div>
       <div v-if="active_el == 0 || active_el == 2">
-        <div class="w-full flex flex-col xl:flex-row items-start pt-52">
+        <div class="w-full flex flex-col xl:flex-row items-start">
           <div class="w-full xl:w-2/4 xl:pr-0 mr-10">
             <h1
               v-if="
                 item.projeto.fotografia_active === true &&
                 item.projeto.videos_active === true
               "
-              class="york text-2xl xl:text-4xl"
+              class="york text-2xl xl:text-4xl pt-52"
             >
               .Fotografia e Videos
             </h1>
