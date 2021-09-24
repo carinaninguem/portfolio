@@ -1,14 +1,23 @@
 <template>
   <nuxt-link
     :to="`/projetos/${slug}`"
-    class="p-3 flex w-full border border-custom__border_c rounded-xl border-opacity-0 hover:border-opacity-100"
+    class="
+      p-3
+      flex
+      w-full
+      border
+      border-custom__border_c
+      rounded-xl
+      border-opacity-0
+      hover:border-opacity-100
+    "
   >
-    <div class="flex flex-col justify-center">
+    <div class="flex flex-col justify-center w-8/12">
       <p>{{ category }}</p>
       <Hsvg cl="w-11/12" />
       <p>{{ description }}</p>
     </div>
-    <div class="flex justify-end">
+    <div class="flex justify-end w-4/12">
       <img
         v-for="(icon, i) in thumb"
         :key="slug + i"

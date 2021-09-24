@@ -3,7 +3,11 @@
     "id": "03.1",
     "projeto": {
       "title": "Dreambooks - Memories Forever",
-      "thumb": [],
+      "thumb": [
+        "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_thumb.png",
+        "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_thumb.png",
+        "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_thumb.png"
+      ],
       "slug": "dreambooks",
       "category": "MAR 2019 - AGORA",
       "short_description": "Responsável pela comunicação da marca Dreambooks",
@@ -24,6 +28,9 @@
       "keywords_image": "/portfolio/projetos/3.1_dreambooks/carina_leitao_dreambooks_main.png",
       "description_image": "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_description_img.svg",
       "behance": "https://www.behance.net/gallery/74783177/Carmen-Bistro-e-Restaurante",
+      "fotografia_active": false,
+      "design_active": false,
+      "videos_active": false,
       "fotografia": [],
       "design": [],
       "videos": [],
@@ -39,7 +46,11 @@
     "id": "03.2",
     "projeto": {
       "title": "Casa da Granja - Restaurante e Petiscos",
-      "thumb": "/portfolio/projetos/3.2_casa_da_granja/carina_leitao_casa_da_granja_thumb.png",
+      "thumb": [
+        "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_thumb.png",
+        "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_thumb.png",
+        "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_thumb.png"
+      ],
       "slug": "casa-granja",
       "category": "SET 2020",
       "short_description": "Desenvolvimento da marca «Casa da Granja - Restaurante e Tapas»",
@@ -80,7 +91,11 @@
     "id": "03.3",
     "projeto": {
       "title": "Gift - Gin e Tapas Bar",
-      "thumb": ["/portfolio/projetos/3.3_gift/carina_leitao_gift_thumb.png"],
+      "thumb": [
+        "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_thumb.png",
+        "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_thumb.png",
+        "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_thumb.png"
+      ],
       "slug": "gift",
       "category": "NOV 2018",
       "short_description": "Rebranding e Captação de Imagem",
@@ -94,6 +109,9 @@
       "keywords_image": "/portfolio/projetos/3.3_gift/carina_leitao_gift_keywords.jpg",
       "description_image": "/portfolio/projetos/3.3_gift/carina_leitao_gift_description.jpg",
       "behance": "https://www.behance.net/gallery/74783177/Carmen-Bistro-e-Restaurante",
+      "fotografia_active": false,
+      "design_active": false,
+      "videos_active": false,
       "fotografia": [],
       "design": [],
       "videos": [],
@@ -135,6 +153,9 @@
       "keywords_image": "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_keywords.jpg",
       "description_image": "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_description_img.svg",
       "behance": "https://www.behance.net/gallery/74783177/Carmen-Bistro-e-Restaurante",
+      "fotografia_active": true,
+      "design_active": true,
+      "videos_active": true,
       "fotografia": [
         "/portfolio/projetos/3.4_carmen/fotografia/carina_leitao_carmen_fotografia_0.jpg",
         "/portfolio/projetos/3.4_carmen/fotografia/carina_leitao_carmen_fotografia_1.jpg",
