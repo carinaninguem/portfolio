@@ -147,12 +147,6 @@
       </div>
 
       <div v-if="active_el == 0 || active_el == 1">
-        <h1
-          v-if="item.projeto.design_active === true"
-          class="york text-2xl xl:text-4xl pt-52"
-        >
-          .Design
-        </h1>
         <img
           v-for="image in item.projeto.design"
           :key="image"
@@ -172,24 +166,6 @@
               class="york text-2xl xl:text-4xl pt-52"
             >
               .Fotografia e Videos
-            </h1>
-            <h1
-              v-if="
-                item.projeto.fotografia_active === true &&
-                item.projeto.videos_active === false
-              "
-              class="york text-2xl xl:text-4xl"
-            >
-              .Fotografia
-            </h1>
-            <h1
-              v-if="
-                item.projeto.fotografia_active === false &&
-                item.projeto.videos_active === true
-              "
-              class="york text-2xl xl:text-4xl"
-            >
-              .Videos
             </h1>
 
             <p
@@ -215,7 +191,7 @@
           </div>
           <div
             v-if="item.projeto.videos_active === true"
-            class="w-full xl:w-2/4 flex projects_videos scroller"
+            class="w-full xl:w-2/4 flex projects_videos scroller pt-16"
           >
             <div
               v-for="vid in item.projeto.videos"
