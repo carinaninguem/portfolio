@@ -29,10 +29,16 @@
       "description_image": "/portfolio/projetos/3.1_dreambooks/carina_leitao_dreambooks_description.gif",
       "behance": "https://www.behance.net/gallery/74783177/Carmen-Bistro-e-Restaurante",
       "fotografia_active": false,
-      "design_active": false,
+      "design_active": true,
       "videos_active": false,
       "fotografia": [],
-      "design": [],
+      "design": [
+        "/portfolio/projetos/3.1_dreambooks/design/carina_leitao_dreambooks_design_1.png",
+        "/portfolio/projetos/3.1_dreambooks/design/carina_leitao_dreambooks_design_2.png",
+        "/portfolio/projetos/3.1_dreambooks/design/carina_leitao_dreambooks_design_3.png",
+        "/portfolio/projetos/3.1_dreambooks/design/carina_leitao_dreambooks_design_4.png",
+        "/portfolio/projetos/3.1_dreambooks/design/carina_leitao_dreambooks_design_5.png",
+        "/portfolio/projetos/3.1_dreambooks/design/carina_leitao_dreambooks_design_6.png"],
       "videos": [],
       "colors": [
         "/portfolio/projetos/3.1_dreambooks/cores/carina_leitao_dreambooks_cores_0.svg",
