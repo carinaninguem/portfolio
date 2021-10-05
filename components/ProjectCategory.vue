@@ -5,6 +5,7 @@
       pt-10
       md:pt-3
       pb-3
+      pl-3
       flex
       w-full
       border
