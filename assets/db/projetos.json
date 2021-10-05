@@ -4,9 +4,9 @@
     "projeto": {
       "title": "Dreambooks - Memories Forever",
       "thumb": [
-        "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_thumb.png",
-        "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_thumb.png",
-        "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_thumb.png"
+        "/portfolio/projetos/3.1_dreambooks/carina_leitao_thumb.png",
+        "/portfolio/projetos/3.1_dreambooks/carina_leitao_thumb_2.png",
+        "/portfolio/projetos/3.1_dreambooks/carina_leitao_thumb_3.png"
       ],
       "slug": "dreambooks",
       "category": "MAR 2019 - AGORA",
@@ -25,8 +25,8 @@
       ],
       "type": "Responsável pela comunicação da marca",
       "main_image": "/portfolio/projetos/3.1_dreambooks/carina_leitao_dreambooks_main.png",
-      "keywords_image": "/portfolio/projetos/3.1_dreambooks/carina_leitao_dreambooks_main.png",
-      "description_image": "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_description_img.svg",
+      "keywords_image": "/portfolio/projetos/3.1_dreambooks/carina_leitao_dreambooks_keywords.jpg",
+      "description_image": "/portfolio/projetos/3.1_dreambooks/carina_leitao_dreambooks_description.gif",
       "behance": "https://www.behance.net/gallery/74783177/Carmen-Bistro-e-Restaurante",
       "fotografia_active": false,
       "design_active": false,
@@ -48,8 +48,8 @@
       "title": "Casa da Granja - Restaurante e Petiscos",
       "thumb": [
         "/portfolio/projetos/3.2_casa_da_granja/carina_leitao_casa_da_granja_thumb.png",
-        "/portfolio/projetos/3.2_casa_da_granja/carina_leitao_casa_da_granja_thumb.png",
-        "/portfolio/projetos/3.2_casa_da_granja/carina_leitao_casa_da_granja_thumb.png"
+        "/portfolio/projetos/3.2_casa_da_granja/carina_leitao_casa_da_granja_thumb_2.png",
+        "/portfolio/projetos/3.2_casa_da_granja/carina_leitao_casa_da_granja_thumb_3.png"
       ],
       "slug": "casa-granja",
       "category": "SET 2020",
@@ -70,20 +70,23 @@
       ],
       "type": "Desenvolvimento de Marca",
       "main_image": "/portfolio/projetos/3.2_casa_da_granja/carina_leitao_casa_da_granja_main.png",
-      "keywords_image": "/portfolio/projetos/3.2_casa_da_granja/carina_leitao_casa_da_granja_keywords.jpg",
+      "keywords_image": "/portfolio/projetos/3.2_casa_da_granja/carina_leitao_casa_da_granja_keywords.svg",
       "description_image": "/portfolio/projetos/3.2_casa_da_granja/carina_leitao_casa_da_granja_description.jpg",
       "behance": "https://www.behance.net/gallery/74783177/Carmen-Bistro-e-Restaurante",
+      "fotografia_active": false,
+      "design_active": true,
+      "videos_active": false,
       "fotografia": [],
       "design": [
-        "/portfolio/projetos/3.2_casa_da_granja/cores/carina_leitao_casa_da_granja_design_0",
-        "/portfolio/projetos/3.2_casa_da_granja/cores/carina_leitao_casa_da_granja_design_1",
-        "/portfolio/projetos/3.2_casa_da_granja/cores/carina_leitao_casa_da_granja_design_2"
+        "/portfolio/projetos/3.2_casa_da_granja/design/carina_leitao_casa_da_granja_design_0.jpg",
+        "/portfolio/projetos/3.2_casa_da_granja/design/carina_leitao_casa_da_granja_design_1.jpg",
+        "/portfolio/projetos/3.2_casa_da_granja/design/carina_leitao_casa_da_granja_design_2.jpg"
       ],
       "videos": [],
       "colors": [
-        "/portfolio/projetos/3.2_casa_da_granja/cores/carina_leitao_casa_da_granja_cores_0",
-        "/portfolio/projetos/3.2_casa_da_granja/cores/carina_leitao_casa_da_granja_cores_1",
-        "/portfolio/projetos/3.2_casa_da_granja/cores/carina_leitao_casa_da_granja_cores_2"
+        "/portfolio/projetos/3.2_casa_da_granja/cores/carina_leitao_casa_da_granja_cores_0.svg",
+        "/portfolio/projetos/3.2_casa_da_granja/cores/carina_leitao_casa_da_granja_cores_1.svg",
+        "/portfolio/projetos/3.2_casa_da_granja/cores/carina_leitao_casa_da_granja_cores_2.svg"
       ]
     }
   },
@@ -93,8 +96,8 @@
       "title": "Gift - Gin e Tapas Bar",
       "thumb": [
         "/portfolio/projetos/3.3_gift/carina_leitao_gift_thumb.png",
-        "/portfolio/projetos/3.3_gift/carina_leitao_gift_thumb.png",
-        "/portfolio/projetos/3.3_gift/carina_leitao_gift_thumb.png"
+        "/portfolio/projetos/3.3_gift/carina_leitao_gift_thumb_2.png",
+        "/portfolio/projetos/3.3_gift/carina_leitao_gift_thumb_3.png"
       ],
       "slug": "gift",
       "category": "NOV 2018",
@@ -109,11 +112,25 @@
       "keywords_image": "/portfolio/projetos/3.3_gift/carina_leitao_gift_keywords.jpg",
       "description_image": "/portfolio/projetos/3.3_gift/carina_leitao_gift_description.jpg",
       "behance": "https://www.behance.net/gallery/74783177/Carmen-Bistro-e-Restaurante",
-      "fotografia_active": false,
-      "design_active": false,
+      "fotografia_active": true,
+      "design_active": true,
       "videos_active": false,
-      "fotografia": [],
-      "design": [],
+      "fotografia": [
+        "/portfolio/projetos/3.3_gift/fotografia/carina_leitao_gift_fotografia_0.jpg",
+        "/portfolio/projetos/3.3_gift/fotografia/carina_leitao_gift_fotografia_1.jpg",
+        "/portfolio/projetos/3.3_gift/fotografia/carina_leitao_gift_fotografia_2.jpg",
+        "/portfolio/projetos/3.3_gift/fotografia/carina_leitao_gift_fotografia_3.jpg",
+        "/portfolio/projetos/3.3_gift/fotografia/carina_leitao_gift_fotografia_4.jpg",
+        "/portfolio/projetos/3.3_gift/fotografia/carina_leitao_gift_fotografia_5.jpg",
+        "/portfolio/projetos/3.3_gift/fotografia/carina_leitao_gift_fotografia_6.jpg",
+        "/portfolio/projetos/3.3_gift/fotografia/carina_leitao_gift_fotografia_7.jpg",
+        "/portfolio/projetos/3.3_gift/fotografia/carina_leitao_gift_fotografia_8.jpg"
+      ],
+      "design": [
+        "/portfolio/projetos/3.3_gift/design/carina_leitao_gift_design_0.jpg",
+        "/portfolio/projetos/3.3_gift/design/carina_leitao_gift_design_1.jpg",
+        "/portfolio/projetos/3.3_gift/design/carina_leitao_gift_design_2.jpg"
+      ],
       "videos": [],
       "colors": [
         "/portfolio/projetos/3.3_gift/cores/carina_leitao_gift_cores_0.svg",
@@ -128,8 +145,8 @@
       "title": "Carmen - Bistrô e Restaurante",
       "thumb": [
         "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_thumb.png",
-        "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_thumb.png",
-        "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_thumb.png"
+        "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_thumb_2.png",
+        "/portfolio/projetos/3.4_carmen/carina_leitao_carmen_thumb_3.png"
       ],
       "slug": "carmen",
       "category": "NOV 2018",
