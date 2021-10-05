@@ -239,11 +239,45 @@
           </div>
         </div>
       </div>
+      <h1 class="cursor-pointer york text-2xl xl:text-4xl mt-48">
+        Ver Mais Projetos
+      </h1>
+      <div class="block sm:flex mt-0 md:mt-6">
+        <nuxt-link
+          v-for="next in projeto"
+          :key="next.id"
+          :to="`/projetos/${next.projeto.slug}`"
+          class="
+            flex flex-col
+            items-start
+            sm:items-center
+            mr-10
+            p-3
+            border
+            border-custom__border_c
+            rounded-xl
+            border-opacity-0
+            hover:border-opacity-100
+          "
+        >
+          <div class="">
+            <img
+              class="w-16 lg:w-24 xl:w-32 h-16 lg:h-24 xl:h-32"
+              :src="next.projeto.thumb[0]"
+              :alt="next.projeto.thumb[0]"
+            />
+          </div>
+          <div class="mt-2">
+            <p class="semi_bold">{{ next.projeto.title.split("-")[0] }}</p>
+          </div>
+        </nuxt-link>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import ProjectCategory from "@/components/ProjectCategory";
 const getProjetos = () =>
   import("~/assets/db/projetos.json").then((m) => m.default || m);
 
@@ -260,6 +294,7 @@ export default {
     return {
       entry_id: this.$route.params.id,
       projeto: [],
+      next_projeto: [],
       title: "",
       active_el: 0,
       width: "",
@@ -272,11 +307,18 @@ export default {
   },
   computed: {
     getProjeto() {
-      return this.projeto.filter((fil) => {
+      return this.projeto.filter((fil, i) => {
         if (fil.projeto.slug === this.entry_id) {
           this.$nuxt.$emit("title", fil.projeto.slug);
           this.$nuxt.$emit("number", fil.id);
           this.$nuxt.$emit("background", false);
+
+          if (i + 1 > this.projeto.length - 1) {
+            this.next_projeto = this.projeto[0];
+          } else {
+            this.next_projeto = this.projeto[i + 1];
+          }
+
           return fil;
         }
       });
