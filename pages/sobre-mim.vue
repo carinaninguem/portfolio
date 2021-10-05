@@ -67,8 +67,7 @@
             <li>
               <span class="text-custom__tx mb-4">• NOV 2018</span>
               <p class="pb-4 pt-2">
-                class="pb-4"Desenvolvimento da marca “Carmen - Bistrô e
-                Restaurante”
+                Desenvolvimento da marca “Carmen - Bistrô e Restaurante”
               </p>
             </li>
           </ul>
